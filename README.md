@@ -1,17 +1,32 @@
 # Association Les Codeurs
 
-Petit site vitrine créé pour un exercice de travail en équipe avec Git.
+Ce dépôt contient le site vitrine de l’association Les Codeurs. Il a été réalisé dans le cadre d’un TP consacré au travail d’équipe avec Git.
 
-## Le site
+## Pages du site
 
-- `index.html` : page d’accueil de l’association.
-- `projets.html` : présentation des projets.
-- `contact.html` : adresse de contact fictive.
+- `index.html` présente l’association.
+- `projets.html` décrit les projets de l’association.
+- `contact.html` affiche son adresse de contact fictive.
+
+Les pages sont écrites en HTML et s’ouvrent directement dans un navigateur. Le projet ne nécessite ni dépendance ni serveur web.
 
 ## Ouvrir le site
 
-Aucune installation n’est nécessaire. Télécharge le dépôt et ouvre `index.html` dans un navigateur.
+Clonez le dépôt, puis ouvrez `index.html` dans votre navigateur :
 
-## Exercice Git
+```bash
+git clone https://github.com/loanmercurio26-arch/tp-git-asso.git
+cd tp-git-asso
+```
 
-Ce dépôt sert à pratiquer les branches, les commits, les fusions et la résolution de conflits, le rebase, le stash, l’annulation de changements et les tags. La version finale est marquée `v1.0.0`.
+Sous Windows, vous pouvez aussi ouvrir le dossier dans Visual Studio Code avec `code .`, puis double-cliquer sur `index.html`.
+
+## Travail avec Git
+
+Le TP met en pratique la création de branches et de commits, le partage des changements, les fusions et la résolution de conflits. Il aborde également le rebase, la mise de côté temporaire de modifications, la restauration ou l’annulation de changements et la création d’un tag.
+
+La version de référence du projet est identifiée par le tag `v1.0.0`.
+
+## Contribuer
+
+Pour proposer une modification, créez une branche à partir de `main`, enregistrez votre travail dans des commits, puis partagez la branche avec l’équipe pour relecture avant son intégration.
